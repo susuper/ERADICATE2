@@ -1,5 +1,5 @@
 CC=g++
-CDEFINES=
+CDEFINES=-DCL_TARGET_OPENCL_VERSION=120
 SOURCES=Dispatcher.cpp eradicate2.cpp hexadecimal.cpp ModeFactory.cpp Speed.cpp sha3.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=ERADICATE2.x64
